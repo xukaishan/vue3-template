@@ -6,7 +6,7 @@ import { useSystemStore } from 'store/modules/system';
 
 const systemStore = useSystemStore();
 
-const title = '北京中理检验实验室信息管理系统（LIMS）';
+const title = '管理系统';
 // const src = ref('https://192.168.2.223:21700/files/formal/normal_file/202202/422789433664.png');
 const src = ref('https://192.168.2.230:20800/files/formal/loginPageVideo/two-in-one.mp4');
 const isVideo = computed(() => src.value.endsWith('.mp4'));
