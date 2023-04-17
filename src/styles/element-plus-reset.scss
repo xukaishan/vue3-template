@@ -1,0 +1,86 @@
+/* reset element-plus 重置样式 */
+/* 表单相关样式 重置为lims风格 */
+.el-form-item{
+    margin-bottom: 4px;
+}
+.el-form-item__label{
+    padding: 0 6px 0 6px;
+    color: var(--ks-form-label-color);
+    font-weight: var(--ks-form-label-weight);
+    margin-bottom: 0px!important;
+}
+.el-form-item__error--inline,.el-form-item__error {
+    --el-form-item__error: calc(var(--el-component-size) - 2px);
+    position: absolute;
+    padding: 0 0 0 11px;
+    left: 2px;
+    top: 1px;
+    min-height: var(--el-form-item__error);
+    line-height: var(--el-form-item__error);
+    // z-index: -1; // 这个是否遮挡
+    // background-color: #fff;
+}
+.el-form-item.is-error .el-input__wrapper {
+    box-shadow: 0 0 0 1px var(--el-color-primary) inset;
+}
+.el-select-v2__suffix{
+    height: unset;
+}
+.el-select-v2__placeholder{
+    line-height: 28px;
+}
+/* 表单字体颜色 */
+.el-input,.el-textarea__inner,.el-select-v2__placeholder{
+    --el-input-text-color: var(--ks-form-text-color)
+}
+.el-radio{
+    --el-radio-text-color: var(--ks-form-text-color);
+}
+.el-checkbox{
+    --el-checkbox-text-color: var(--ks-form-text-color);
+}
+/* 表单背景透明 */
+.el-input__wrapper,
+.el-select-v2__wrapper,
+.el-textarea__inner{
+    background-color: transparent;
+}
+.el-icon{
+    color: var(--el-text-color-primary);
+}
+/* collapse相关 */
+.el-collapse{
+    border-top: none;
+    border-bottom: none;
+
+}
+.el-collapse-item:last-child {
+    margin-bottom: 0px;
+}
+.el-collapse-item__content{
+    padding-bottom: 0px;
+}
+.qz-button,.qz-button-group{
+    .el-icon{
+        color: var(--el-button-text-color);
+    }
+}
+/*
+ * 组件重置
+ */
+// 全屏loading
+.qz-global-loading{
+}
+.qz-resize-title-full-screen{
+    color: var(--ks-reverse-color);
+}
+.qz-resize-dialog{
+    border: var(--ks-resize-dialog-border);
+}
+.qz-menu{
+    .el-icon{
+        color: var(--el-color-white);
+    }
+}
+/* tabs */
+

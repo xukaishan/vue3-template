@@ -1,0 +1,46 @@
+.qz-flex{
+    display: flex;
+    &-column{
+        flex-direction: column;
+    }
+    &-middle{
+        align-items: center;
+    }
+    &-top{
+        align-items: flex-start;
+    }
+    &-start{
+        justify-content: flex-start;
+    }
+}
+
+.qz-cursor{
+    &-pointer{
+        cursor: pointer;
+    }
+    &-ew{
+        cursor: ew-resize;
+    }
+    &-ns{
+        cursor: ns-resize;
+    }
+}
+
+.ks-flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ks-display-none{
+    display: none!important;
+}
+
+.ks-display-block{
+    display: block!important;
+}
+
+.ks-display-inline{
+    display: inline-block!important;
+}
+

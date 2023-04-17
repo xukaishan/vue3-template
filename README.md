@@ -1,2 +1,9 @@
-# vue3-template
-Background management template based on vite and vue3
+## 开发
+
+npm i
+
+npm run dev
+
+## 构建
+
+npm run build
